@@ -11,6 +11,12 @@
     </h2>
     Please upload your excel file, and the result will print out in other page
 
+    <p>
+        Or you can download excel sample (to upload in this test page) 
+
+        <a href="https://github.com/teguh02/OExcel/blob/master/Excel/sampleExcelUpload.xlsx">here</a>
+    </p>
+
     <br><br>
 
     <form action="uploadProcess.php" enctype="multipart/form-data" method="post">

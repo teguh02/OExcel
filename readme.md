@@ -23,3 +23,11 @@ https://github.com/teguh02/OExcel/blob/master/export.php
 
 And for the result you can visit here
 https://oexcel-app.herokuapp.com/export.php
+
+## Form upload
+You can try upload your excel file here, after data is readed by our system, your file will 
+deleted using unlink(). So Secure :)
+
+<br>
+Try here
+https://oexcel-app.herokuapp.com/upload.php
