@@ -14,6 +14,12 @@ This package is for OFI PHP Framework package and you can use in Native PHP
 You can see import sample from index.php
 https://github.com/teguh02/OExcel/blob/master/index.php
 
+And for the result you can visit here
+https://oexcel-app.herokuapp.com
+
 ## Export
 You can see export sample from export.php
 https://github.com/teguh02/OExcel/blob/master/export.php
+
+And for the result you can visit here
+https://oexcel-app.herokuapp.com/export.php
