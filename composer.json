@@ -1,0 +1,25 @@
+{
+    "name": "ofi/oexcel",
+    "description": "Package for read excel files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Teguh Rijanandi",
+            "email": "teguhrijanandi02@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ofi\\OExcel\\": "src/OExcel/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ofi\\OExcel\\": "src/OExcel/"
+        }
+    }
+}
