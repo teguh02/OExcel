@@ -2,6 +2,7 @@
 
 namespace ofi\OExcel;
 use ofi\OExcel\Excel\Import;
+use ofi\OExcel\Excel\Export;
 use Exception;
 
 /**
@@ -19,6 +20,9 @@ use Exception;
  */
 
 class OExcel extends Import {
+
+    // Import trait export
+    use Export;
     
     // Checking for server specification
     public function __construct()
