@@ -36,9 +36,13 @@ echo "<pre>";
     
     echo "<p> #Get All Data By Sheet Index (first sheet selected) As array</p>";
     print_r(O::getDataAsArray($files));
+
+    // === //
     
     echo "<p> #Get All Data By Sheet Index (Second sheet selected) As Json</p>";
     print_r(O::getDataAsJson($files, 1));
+
+    // === //
     
     echo "<br><br> <p> #Get All Data By Sheet Index (First sheet selected) As Object</p>";
     print_r(O::getDataAsObject($files, 0));
